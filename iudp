@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://i.imgur.com/kh9HcM0.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      animation: bgFade 10s ease-in-out infinite alternate;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      text-align: center;
+      max-width: 450px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      color: #ec407a;
+      font-size: 2em;
+      margin-bottom: 10px;
+      animation: pulse 2s infinite;
+    }
+    p {
+      color: #444;
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes bgFade {
+      0% { filter: brightness(100%); }
+      100% { filter: brightness(110%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>To My Love 💗</h1>
+    <p>M gửi tấm thiệp nhỏ này để nói rằng t thương m rất nhiều. Cảm ơn m đã luôn bên cạnh, làm t cười, và khiến mỗi ngày của t trở nên đặc biệt hơn. T không cần gì nhiều, chỉ cần có m trong đời là đủ 💞</p>
+    <p>Đừng buồn nữa nha, t luôn yêu m nhiều nhiều 🫶</p>
+  </div>
+</body>
+</html>
